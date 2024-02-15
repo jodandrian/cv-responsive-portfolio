@@ -1,0 +1,14 @@
+{
+    "name": "sass-portfolio",
+    "version": "1.0.0",
+    "description": "portfolio website with html, sass and javaScript",
+    "main": "index.js",
+    "scripts": {
+        "compile-sass": "sass app.scss app.css --watch --no-source-map --style compressed"
+    },
+    "author": "joda",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.69.5"
+    }
+}

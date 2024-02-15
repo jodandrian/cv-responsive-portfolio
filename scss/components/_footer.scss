@@ -1,0 +1,38 @@
+@use "../abstracts" as *;
+.footer {
+    padding: $padding-y 0;
+    background: linear-gradient(to top, $white 50%, $green-50 50%);
+    &__copyright {
+        width: 100%;
+        margin: 4rem auto 0 auto;
+        font-size: 1.5rem;
+        color: $black;
+        text-align: center;
+        &--name {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: $green-600;
+            text-transform: capitalize;
+        }
+    }
+    &__socials {
+        margin: 2rem auto;
+        @include flexBox(center, null);
+        &__circle {
+            width: 3.5rem;
+            height: 3.5rem;
+            @include flexBox(center, center);
+            border-radius: 50%;
+            background: $green-400;
+            margin-left: 1rem;
+            text-decoration: none;
+            &:first-child {
+                margin-left: 0;
+            }
+            i {
+                font-size: 1.6rem;
+                color: $white;
+            }
+        }
+    }
+}
