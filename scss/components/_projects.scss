@@ -76,6 +76,10 @@
         }
         &:hover &__layer__link {
             animation: animateLink 1s ease-in-out;
+            i {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
             @keyframes animateLink {
                 from {
                     transform: translateY(6rem);
