@@ -1,2 +1,6 @@
 node_modules
+<<<<<<< HEAD
 .vscode
+=======
+.vscode
+>>>>>>> 3d53ba8 (change into index.html)
