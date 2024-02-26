@@ -57,6 +57,13 @@
                 @include responsive(xsm) {
                     font-size: 1.7rem;
                 }
+                .tritary-font {
+                    font-size: 2.5rem;
+                    color: $green-500;
+                    font-family: "Droid Serif", serif;
+                    font-weight: 900;
+                    font-style: italic;
+                }
             }
             &__links {
                 margin-top: 1.5rem;
