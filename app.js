@@ -35,21 +35,48 @@ modalClose.addEventListener('click', () => {
 	modal.style.display = "none";
 })
 
-// open & close banner modal
-
+/**
+ * open & close banner modal
+ */
 const bannerModalBtn = document.querySelector('.banner-modal-btn');
+const bannerModalBtn1 = document.querySelector('.banner-modal-btn1');
+const bannerModalBtn2 = document.querySelector('.banner-modal-btn2');
+const bannerModalBtn3 = document.querySelector('.banner-modal-btn3');
 const bannerModal = document.querySelector('.banner__modal');
+const bannerModal1 = document.querySelector('.banner__modal1');
+const bannerModal2 = document.querySelector('.banner__modal2');
+const bannerModal3 = document.querySelector('.banner__modal3');
 const bannerModalClose = document.querySelector('.banner__modal__wrapper__close');
+const bannerModal1Close = document.querySelector('.banner__modal1__wrapper__close');
+const bannerModal2Close = document.querySelector('.banner__modal2__wrapper__close');
+const bannerModal3Close = document.querySelector('.banner__modal3__wrapper__close');
 
 // open modal
 bannerModalBtn.addEventListener('click', () => {
 	// modal.style.display = "flex";
     bannerModal.style.display = "flex";
 })
-
+bannerModalBtn1.addEventListener('click', () => {
+    bannerModal1.style.display = "flex";
+})
+bannerModalBtn2.addEventListener('click', () => {
+    bannerModal2.style.display = "flex";
+})
+bannerModalBtn3.addEventListener('click', () => {
+    bannerModal3.style.display = "flex";
+})
 // close modal
 bannerModalClose.addEventListener('click', () => {
 	 bannerModal.style.display = "none";
+})
+bannerModal1Close.addEventListener('click', () => {
+    bannerModal1.style.display = "none";
+})
+bannerModal2Close.addEventListener('click', () => {
+    bannerModal2.style.display = "none";
+})
+bannerModal3Close.addEventListener('click', () => {
+    bannerModal3.style.display = "none";
 })
 
 // Get current year

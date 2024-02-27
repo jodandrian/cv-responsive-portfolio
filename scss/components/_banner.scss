@@ -69,12 +69,20 @@
         &__body {
             padding: 3rem;
             background: $green-500;
-            &__modal {
+            &__top {
+                text-transform: uppercase;
+                font-size: 1.8rem;
+                font-weight: 500;
+                color: $green-200;
+                text-align: center;
+                cursor:default;
+            }
+            &__view {
                 @include flexBox(center, null);
                 i {
-                    height: 4.5rem;
-                    width: 4.5rem;
-                    font-size: 4.5rem;
+                    height: 2.5rem;
+                    width: 2.5rem;
+                    font-size: 2.5rem;
                     color: $white;
                     @include flexBox(center, center);
                     border-radius: 50%;

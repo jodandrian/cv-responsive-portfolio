@@ -109,3 +109,172 @@
         }
     }
 }
+.banner__modal {
+    width: 100%;
+    height: 100%;
+    @include position(fixed, 0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    @include flexBox(center, center);
+    display: none;
+    &__wrapper {
+      display: flex;
+      width: 75rem;
+      height: 45rem;
+      background: $white;
+      position: relative;
+      animation: modalAnimate 0.5s ease-in-out;
+      @keyframes modalAnimate {
+        from {
+          transform: translateY(-4rem);
+        }
+        to {
+          transform: translateY(0);
+        }
+      }
+      @include responsive(sm) {
+        width: 90%;
+        height: auto;
+      }
+      &__close {
+        @include position(absolute, 0.8rem, 1rem, null, null);
+        display: block;
+        font-size: 3rem;
+        cursor: pointer;
+      }
+      &__image {
+        width: 100%;
+        height: 45rem;
+        &__img {
+          @include imageCover;
+        }
+      }
+    }
+  }
+  
+  .banner__modal1 {
+    width: 100%;
+    height: 100%;
+    @include position(fixed, 0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    @include flexBox(center, center);
+    display: none;
+    &__wrapper {
+      display: flex;
+      width: 75rem;
+      height: 45rem;
+      background: $white;
+      position: relative;
+      animation: modalAnimate 0.5s ease-in-out;
+      @keyframes modalAnimate {
+        from {
+          transform: translateY(-4rem);
+        }
+        to {
+          transform: translateY(0);
+        }
+      }
+      @include responsive(sm) {
+        width: 90%;
+        height: auto;
+      }
+      &__close {
+        @include position(absolute, 0.8rem, 1rem, null, null);
+        display: block;
+        font-size: 3rem;
+        cursor: pointer;
+      }
+      &__image {
+        width: 100%;
+        height: 45rem;
+        &__img {
+          @include imageCover;
+        }
+      }
+    }
+  }
+  .banner__modal2 {
+    width: 100%;
+    height: 100%;
+    @include position(fixed, 0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    @include flexBox(center, center);
+    display: none;
+    &__wrapper {
+      display: flex;
+      width: 75rem;
+      height: 45rem;
+      background: $white;
+      position: relative;
+      animation: modalAnimate 0.5s ease-in-out;
+      @keyframes modalAnimate {
+        from {
+          transform: translateY(-4rem);
+        }
+        to {
+          transform: translateY(0);
+        }
+      }
+      @include responsive(sm) {
+        width: 90%;
+        height: auto;
+      }
+      &__close {
+        @include position(absolute, 0.8rem, 1rem, null, null);
+        display: block;
+        font-size: 3rem;
+        cursor: pointer;
+      }
+      &__image {
+        width: 100%;
+        height: 45rem;
+        &__img {
+          @include imageCover;
+        }
+      }
+    }
+  }
+  .banner__modal3 {
+    width: 100%;
+    height: 100%;
+    @include position(fixed, 0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    @include flexBox(center, center);
+    display: none;
+    &__wrapper {
+      display: flex;
+      width: 75rem;
+      height: 45rem;
+      background: $white;
+      position: relative;
+      animation: modalAnimate 0.5s ease-in-out;
+      @keyframes modalAnimate {
+        from {
+          transform: translateY(-4rem);
+        }
+        to {
+          transform: translateY(0);
+        }
+      }
+      @include responsive(sm) {
+        width: 90%;
+        height: auto;
+      }
+      &__close {
+        @include position(absolute, 0.8rem, 1rem, null, null);
+        display: block;
+        font-size: 3rem;
+        cursor: pointer;
+      }
+      &__image {
+        width: 100%;
+        height: 45rem;
+        &__img {
+          @include imageCover;
+        }
+      }
+    }
+  }  
