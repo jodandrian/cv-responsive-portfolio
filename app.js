@@ -35,6 +35,23 @@ modalClose.addEventListener('click', () => {
 	modal.style.display = "none";
 })
 
+// open & close banner modal
+
+const bannerModalBtn = document.querySelector('.banner-modal-btn');
+const bannerModal = document.querySelector('.banner__modal');
+const bannerModalClose = document.querySelector('.banner__modal__wrapper__close');
+
+// open modal
+bannerModalBtn.addEventListener('click', () => {
+	// modal.style.display = "flex";
+    bannerModal.style.display = "flex";
+})
+
+// close modal
+bannerModalClose.addEventListener('click', () => {
+	 bannerModal.style.display = "none";
+})
+
 // Get current year
 const year = document.querySelector('.year');
 year.innerHTML = new Date().getFullYear();
