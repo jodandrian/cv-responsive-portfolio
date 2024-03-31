@@ -1,6 +1,6 @@
 @use "../abstracts" as *;
 .footer {
-    padding: $padding-y 0;
+    padding: $padding-y 0 0 0;
     background: linear-gradient(to top, $white 50%, $green-50 50%);
     &__copyright {
         width: 100%;
